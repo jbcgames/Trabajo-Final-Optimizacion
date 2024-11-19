@@ -31,7 +31,7 @@ Nota: Gurobi requiere una licencia válida para su uso.
 - Navega al directorio del proyecto:
     ```bash
     cd Trabajo-Final-Optimizacion
-- Ejecuta el script deseado:
+# Ejecuta el script deseado:
 - Para Gurobi:
     ```bash
     python Codigo_Gurobi.py
