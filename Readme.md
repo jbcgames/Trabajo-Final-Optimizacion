@@ -22,6 +22,7 @@ Además, se incluye el archivo `Resultados_Bin_Packing.xlsx` con los resultados 
 - Bibliotecas necesarias (instalación con `pip`):
   ```bash
   pip install numpy gurobipy
+  pip install pandas
 Nota: Gurobi requiere una licencia válida para su uso.
 
 ## Uso
