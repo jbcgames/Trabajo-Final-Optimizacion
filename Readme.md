@@ -26,16 +26,21 @@ Nota: Gurobi requiere una licencia válida para su uso.
 
 ## Uso
 - Clona el repositorio:
-git clone https://github.com/jbcgames/Trabajo-Final-Optimizacion.git
+    ```bash
+    git clone https://github.com/jbcgames/Trabajo-Final-Optimizacion.git
 - Navega al directorio del proyecto:
-cd Trabajo-Final-Optimizacion
+    ```bash
+    cd Trabajo-Final-Optimizacion
 - Ejecuta el script deseado:
--Para Gurobi:
-python Codigo_Gurobi.py
+- Para Gurobi:
+    ```bash
+    python Codigo_Gurobi.py
 - Para Recocido Simulado:
-python Codigo_Recocido_simulado.py
+    ```bash
+    python Codigo_Recocido_simulado.py
 - Para el código completo:
-python Codigo_completo.py
+    ```bash
+    python Codigo_completo.py
 
 ## Resultados
 Los resultados experimentales demuestran que el recocido simulado ofrece soluciones cercanas al óptimo en menor tiempo comparado con Gurobi, aunque con una ligera pérdida de precisión. Se recomienda ajustar parámetros como la temperatura inicial, el factor de enfriamiento y el número de iteraciones para optimizar el rendimiento del recocido simulado.
