@@ -124,13 +124,13 @@ def solve_with_gurobi(weights, capacity):
 # Configuración de instancias
 instances = [
     {
-        "weights": [random.randint(1, 20) for _ in range(random.randint(5, 15))],
+        "weights": [4, 7, 18, 14, 15, 5, 18, 6, 18, 10, 2, 1, 10, 11, 16],
         "capacity": random.randint(50, 100),
         "initial_temp": random.choice([500, 1000, 1500, 2000]),
         "cooling_rate": random.choice([0.95, 0.90, 0.85, 0.80]),
         "max_iterations": random.choice([100, 500, 5000, 10000]),
     }
-    for _ in range(30)
+    for _ in range(10000)
 ]
 
 # Ejecución de todas las instancias
